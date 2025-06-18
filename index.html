@@ -2,189 +2,60 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MadamSecrets</title>
-  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
     body {
-      margin: 0;
       font-family: 'League Gothic', sans-serif;
-      background-color: #ffffff;
+      background-color: #fff;
       color: #ED4672;
+      margin: 0;
+      padding: 0;
     }
-
     header {
       background-color: #ED4672;
-      color: white;
+      color: #fff;
+      padding: 1rem;
       text-align: center;
-      padding: 20px;
     }
-
-    nav {
-      margin-top: 10px;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 20px;
-      text-transform: uppercase;
-    }
-
     main {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+      padding: 2rem;
     }
-
     section {
-      margin-bottom: 40px;
+      margin-bottom: 2rem;
     }
-
-    h1, h2, h3 {
-      color: #ED4672;
+    h1, h2 {
+      margin: 0;
     }
-
-    .glowup-step, .tips-box, .article-box {
-      background-color: #fff0f5;
-      padding: 15px;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 8px;
-      margin-bottom: 15px;
-      border: 1px solid #ED4672;
-      border-radius: 8px;
-      font-family: 'League Gothic', sans-serif;
-    }
-
-    form button {
-      background-color: #ED4672;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    footer {
-      background-color: #ED4672;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-      position: relative;
-    }
-
-    #topBtn {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      background-color: #ED4672;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 45px;
-      height: 45px;
-      font-size: 22px;
-      cursor: pointer;
-    }
-
-    @media (max-width: 600px) {
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
+    .card {
+      background-color: #fff;
+      border: 2px solid #ED4672;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 12px;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>MadamSecrets</h1>
-  <nav>
-    <a href="#">Beranda</a>
-    <a href="#glowup">Glow Up</a>
-    <a href="#audiens">Tips Audiens</a>
-    <a href="#artikel">Artikel</a>
-    <a href="#tentang">Tentang</a>
-  </nav>
-</header>
-
-<main>
-  <section id="glowup">
-    <h2>Glow Up Journey</h2>
-    <div class="glowup-step">
-      <h3>Minggu 1: Basic Skincare Routine</h3>
-      <p>Mulai dengan membersihkan wajah, toner, moisturizer, dan sunscreen.</p>
-    </div>
-    <div class="glowup-step">
-      <h3>Minggu 2: Perawatan Kulit Lebih Dalam</h3>
-      <p>Tambahkan exfoliasi, masker wajah, dan mulai mengenali jenis kulitmu.</p>
-    </div>
-    <div class="glowup-step">
-      <h3>Minggu 3: Makeup Natural</h3>
-      <p>Belajar dasar-dasar makeup natural yang fresh untuk sehari-hari.</p>
-    </div>
-    <div class="glowup-step">
-      <h3>Minggu 4: Confidence Boost</h3>
-      <p>Latih self-talk positif, outfit styling, dan senyum sebagai kunci kecantikan.</p>
-    </div>
-  </section>
-
-  <section id="audiens">
-    <h2>Beauty Secrets dari Audiens</h2>
-    <div class="tips-box">
-      <p><strong>Amelia:</strong> "Air lemon di pagi hari bikin kulitku lebih cerah!"</p>
-      <p><strong>Nadya:</strong> "Tidur cukup itu beauty hack terbaik!"</p>
-    </div>
-
-    <h3>Bagikan Tips Rahasia Versimu!</h3>
-    <form>
-      <label for="nama">Nama:</label>
-      <input type="text" id="nama" placeholder="Nama kamu...">
-      
-      <label for="tips">Tips Beauty:</label>
-      <textarea id="tips" rows="4" placeholder="Tulis tips cantik versimu di sini..."></textarea>
-
-      <button type="submit">Kirim Tips</button>
-    </form>
-  </section>
-
-  <section id="artikel">
-    <h2>Artikel Kecantikan Lainnya</h2>
-    <div class="article-box">
-      <h3>Top 5 Produk Lokal untuk Kulit Glowing</h3>
-      <p>Yuk kenali produk lokal yang nggak kalah ampuh bikin kulitmu bersinar alami!</p>
-    </div>
-    <div class="article-box">
-      <h3>Cara Memilih Foundation Sesuai Undertone</h3>
-      <p>Foundation yang salah bisa bikin muka abu-abu? Ini dia cara biar nggak salah pilih.</p>
-    </div>
-  </section>
-
-  <section id="tentang">
-    <h2>Tentang MadamSecrets</h2>
-    <p>MadamSecrets adalah ruang aman untuk para cewek yang ingin glow up dari luar dan dalam. Kami berbagi step-step sederhana agar kamu tampil maksimal dan tetap jadi diri sendiri. Karena setiap cewek punya rahasia cantik uniknya sendiri.</p>
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2025 MadamSecrets | Powered by beauty & confidence</p>
-</footer>
-
-<button id="topBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
-
+  <header>
+    <h1>MadamSecrets</h1>
+    <p>Tips Glow Up Mingguan & Beauty Secrets</p>
+  </header>
+  <main>
+    <section>
+      <h2>✨ Minggu Ini: Skin Glowing Start!</h2>
+      <div class="card">
+        <p>1. Minum 2 liter air putih setiap hari 💧</p>
+        <p>2. Gunakan sunscreen sebelum keluar rumah ☀️</p>
+        <p>3. Double cleansing sebelum tidur 🧼</p>
+      </div>
+    </section>
+    <section>
+      <h2>💬 Sharing dari Audience</h2>
+      <div class="card">
+        <p>"Aku jadi lebih percaya diri setelah mulai skincare-an tiap malam!" - @beauty.by.ina</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
